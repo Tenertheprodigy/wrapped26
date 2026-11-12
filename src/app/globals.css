@@ -12,5 +12,6 @@
 @media(max-width:370px){.hero h1{margin-bottom:110px}.hero-actions{gap:12px}.hero-actions .button{font-size:7px}.year-sticker{top:270px}.vibe-card h3{font-size:44px}.recap-name{font-size:46px}.community h2{font-size:47px}}
 .hero-word{white-space:nowrap;font-size:clamp(65px,15.5vw,245px)}
 .hero-copy .micro{display:block;line-height:1.5}
+.hero-topline{gap:20px;align-items:flex-start}.hero-contract{min-width:0;line-height:1.5;user-select:text}.hero-contract code{font-family:inherit;overflow-wrap:anywhere;letter-spacing:0;text-transform:none}.contract code{min-width:0}.contract button{flex-shrink:0}
 @media(max-width:700px){.hero-word{font-size:16vw}.hero h1{margin-bottom:120px}.hero-year{font-size:31vw}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.hero-art{transform:none!important}.culture-card:hover{transform:none}.marquee>div{transform:none!important}}

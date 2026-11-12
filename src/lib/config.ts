@@ -1,9 +1,9 @@
 export const siteConfig = {
   siteUrl: 'https://wrapped-2026-culture.true-cabin-9905.chatgpt.site',
   tokenName: 'Wrapped 2026',
-  ticker: '$WRAPPED',
+  ticker: '$SPOTIFY',
   network: 'Solana',
-  contractAddress: '',
+  contractAddress: '7ELFRkZPVTJRssUkxJm6iy7kbJRjAcSgHLYW6g63pump',
   xUrl: 'https://x.com/Wrappedonsol_',
   tradingUrl: '',
   dexScreenerUrl: '',
