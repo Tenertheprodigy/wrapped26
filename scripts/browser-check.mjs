@@ -7,6 +7,7 @@ const browser = await chromium.launch({ headless: true, executablePath: process.
 const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
 const errors = [];
 page.on('pageerror', error => errors.push(error.message));
+page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
 await page.goto('http://127.0.0.1:3000', { waitUntil: 'networkidle' });
 await page.waitForFunction(() => getComputedStyle(document.querySelector('.hero-word')).opacity === '1');
 await page.waitForTimeout(1000);
